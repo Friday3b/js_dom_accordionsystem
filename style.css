@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.accordionContent {
+    display: none;
+}
+
+
+.cardItem {
+
+ padding: 20px;
+ border: 1px solid greenyellow;
+
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h3{
+
+    cursor: grab;
+    transition: color 0.5s ease;
+}
+
+h3:hover{
+    color:greenyellow
+}
